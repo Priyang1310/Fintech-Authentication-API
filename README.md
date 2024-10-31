@@ -14,8 +14,7 @@ This is a simple authentication system for a FinTech application, implemented us
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/Fintech-Authentication-API.git
-   cd Fintech-Authentication-API
+   git clone https://github.com/Priyang1310/Fintech-Authentication-API.git
    ```
 
 2. **Install Dependencies**
@@ -36,20 +35,14 @@ This is a simple authentication system for a FinTech application, implemented us
 
 ## How to Run the Application
 
-1. **Start MongoDB**
-   Make sure your MongoDB server is running. If you have MongoDB installed locally, you can start it by running:
-   ```bash
-   mongod
-   ```
-
-2. **Run the Application**
+1. **Run the Application**
    In the terminal, navigate to your project directory and run:
    ```bash
    npm start
    ```
    The server will start on the specified port (default is `5000`).
 
-3. **Access the API**
+2. **Access the API**
    You can access the API at `http://localhost:5000/api`.
 
 ## How to Import and Use the Postman Collection
@@ -60,7 +53,7 @@ This is a simple authentication system for a FinTech application, implemented us
 2. **Import the Collection into Postman**
    - Open Postman.
    - Click on `Import` in the top left corner.
-   - Select the `File` tab and drag `FintechAuth.postman_collection.json` into the window or click `Choose Files` and select the file.
+   - Select the `File` tab and drag `FinTechAuth.postman_collection.json` into the window or click `Choose Files` and select the file.
 
 3. **Set Up Environment Variables in Postman**
    - Go to the **Environments** tab.
@@ -78,7 +71,3 @@ This is a simple authentication system for a FinTech application, implemented us
 - **Error Handling**: Appropriate HTTP status codes and error messages are returned for different error scenarios to enhance user experience.
 - **Data Validation**: Input validation checks are implemented for registration and login to ensure data integrity and prevent injection attacks.
 - **Testing**: The API has been thoroughly tested using Postman, covering various scenarios, including valid and invalid inputs.
-
-## License
-
-This project is licensed under the MIT License.
